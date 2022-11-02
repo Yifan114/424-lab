@@ -1,0 +1,33 @@
+[debug] [2022-11-02T21:33:36.104Z] ----------------------------------------------------------------------
+[debug] [2022-11-02T21:33:36.105Z] Command:       /usr/local/bin/firebase /Users/kouyifan/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase emulators:start --only hosting
+[debug] [2022-11-02T21:33:36.106Z] CLI Version:   9.5.0
+[debug] [2022-11-02T21:33:36.106Z] Platform:      darwin
+[debug] [2022-11-02T21:33:36.106Z] Node Version:  v12.18.1
+[debug] [2022-11-02T21:33:36.107Z] Time:          Wed Nov 02 2022 16:33:36 GMT-0500 (Central Daylight Time)
+[debug] [2022-11-02T21:33:36.107Z] ----------------------------------------------------------------------
+[debug] [2022-11-02T21:33:36.107Z] 
+[debug] [2022-11-02T21:33:36.112Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-02T21:33:36.113Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2022-11-02T21:33:36.129Z] [hub] writing locator at /var/folders/vy/gs0q2mqj2j3136f_ks_rr4mr0000gn/T/hub-friendlyeats3-2e607.json
+[debug] [2022-11-02T21:33:36.144Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/friendlyeats3-2e607/webApps/-/config [none]
+[debug] [2022-11-02T21:33:36.577Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/friendlyeats3-2e607/webApps/-/config 200
+[debug] [2022-11-02T21:33:36.577Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/friendlyeats3-2e607/webApps/-/config {"projectId":"friendlyeats3-2e607","storageBucket":"friendlyeats3-2e607.appspot.com","locationId":"us-central","apiKey":"AIzaSyANqG8Xlo2DohYJ-EwGZBh55iAp_7sBWyo","authDomain":"friendlyeats3-2e607.firebaseapp.com","messagingSenderId":"118503388519"}
+[info] i  hosting: Serving hosting files from: ./ {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1m./\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] ⚠  emulators: The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: None
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
